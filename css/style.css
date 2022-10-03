@@ -42,6 +42,9 @@
     color: white;
     font-size: 1.5rem;
 }
+.container-block1{
+    display: flex;
+}
 .container-card-block1{
     display: flex;
 }
