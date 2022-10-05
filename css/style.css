@@ -1,11 +1,9 @@
-* {
-    margin:0;
-    padding:0;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
-/* general */
 .container {
     max-width: 1120px;
     margin: 0 auto;
@@ -42,16 +40,6 @@
     color: white;
     font-size: 1.5rem;
 }
-.container-block1{
-    display: flex;
-}
-.container-card-block1{
-    display: flex;
-}
-
-/* ------------------------------------------------------ */
-    /* ZONA RESPONSIVE */
-/* .------------------------------------------------------- */
 
 
 @media screen and (min-width: 811px) {
@@ -77,9 +65,9 @@
         color: white;
     }
     
-    /* .nav-top .nav-link:visited {
+     .nav-top .nav-link:visited {
         color: white;
-    } */
+    } 
     
     .nav-top .nav-link:hover {
         background-color: aquamarine;
@@ -98,3 +86,544 @@
         display: none;
     }
 }
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+h3{
+    color: #0486fd;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-title{
+    color: white;
+    font-size: 2rem;
+}
+
+img{
+    width: 100%;
+}
+
+
+.header-background{
+    background-color: #0084fd;
+}
+
+
+.header-container{
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-spacings{
+    margin-bottom: 3rem;
+}
+
+.logo{
+    width: calc(50% / 2);
+    border: 1px solid red;
+    margin: 2rem 0;
+}
+
+
+.hamburger{
+    width: calc(50% / 2);
+    
+    border: 1px solid red;
+    margin: 2rem 0;
+}
+
+
+.container-block1{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.card{
+    width: 100%;
+    background-color: #b5ddff;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+
+.cards-container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+
+.store-button{
+    margin: 1.5rem 0;
+}
+
+.store-btn{
+    background-color: #0084fd;
+    color: white;
+    padding: 0.5rem 4rem;
+    border-radius: 25px;
+}
+
+
+.card-subtitle{
+    text-align: center;
+}
+
+
+.card-text p{
+    color: #5e7384;
+    font-weight: bold;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+
+
+.planning-background{
+    background-color: #9792e4;
+}
+
+
+.planning-container{
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.planning-text p{
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+
+.plan-cards{
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.plan-cards-title{
+    color: black;
+    text-align: center;
+}
+
+
+.partners-container{
+    max-width: 85%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+
+.testimonials{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+
+.box-title{
+    font-size: 2.5rem;
+    color: #9792e4;
+    text-align: center;
+}
+
+.box-text {
+    line-height: 1.5rem;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+p{
+    line-height: 1.5rem;
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.partners-card{
+    width: 100%;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+.partner-cards-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.partners-card-text p{
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+
+    font-size: 1.2rem;
+}
+
+.partners-name p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.benefits-background{
+    background-color: #9792e4;
+}
+
+.benefits-container{
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+}
+
+
+.benefits-title h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center
+}
+
+
+.benefits-card{
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.benefits-cards-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.uppercase-numbers{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #9792e4;
+}
+
+
+.card-subtitle h2{
+    color: #9792e4;
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.benefits-text p{
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+/* CARD BUTTON */
+
+.benefits-button{
+    margin: 1.5rem 0;
+}
+
+.benefits-btn{
+    background-color: #9792e4;
+    color: white;
+    padding: 0.7rem 4rem;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+.aboutus-container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+
+.aboutus-title h2{
+    color: #9792e4;
+    font-size: 3rem;
+    text-align: left
+}
+
+
+.aboutus-text p{
+    margin-top: 2rem;
+}
+
+
+.aboutus-image{
+    padding: 3rem 0;
+}
+
+.aboutus-subtitle p{
+    color: #9792e4;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.aboutus-button{
+    margin: 1.5rem 0;
+}
+
+.aboutus-btn{
+    background-color: #9792e4;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+.getstarted-background{
+    background-color: #9792e4;
+}
+
+.getstarted-container{
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 2rem 0;
+}
+
+
+.getstarted-minititle{
+    text-align: center;
+    color: #bfbcee;
+
+}
+
+
+.getstarted-title h3{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+
+.getstarted-free h2{
+    color: #fdc15f;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.getstarted-text p{
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+.getstarted-button{
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.getstarted-btn{
+    background-color: white;
+    color: #9792e4;
+    padding: 1.5rem 6rem;
+    border-radius: 40px;
+}
+
+
+.getstarted-copyright{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+
+
+footer{
+    color: white;
+    font-size: 0.7rem;
+}
+
+/* CONTAINER + BACKGROUND */
+
+.footer-background{
+    background-color: #333333;
+}
+
+.footer-container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+
+.footer-subtext{
+    margin: 2rem 0;
+    text-align: center;
+}
+
+@media screen and (min-width:992px) {
+
+
+    .header-container{
+        max-width: 992px;
+    }
+
+    .demo-container{
+        max-width: 992px;
+    }
+
+    .planning-container{
+        max-width: 992px;
+    }
+
+    .partners-container{
+        max-width: 992px;
+    }
+
+    .benefits-container{
+        max-width: 992px;
+    }
+
+    .aboutus-container{
+        max-width: 992px;
+    }
+    
+    .getstarted-container{
+        max-width: 992px;
+    }
+
+    .footer-container{
+        max-width: 992px;
+    }
+
+    .responsive-planning-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .strategic-planning{
+        height: 800px;
+        width: 55%;
+    }
+
+    .planning-card{
+        width: 40%;
+    }
+
+    .large-card-flexcontainer{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .large-box-text{
+        width: 50%;
+    }
+
+    .phone-img{
+        width: 40%;
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .benefits-card{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+
+    .card-responsive-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-cards1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .row-cards2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .large-cardbox{
+        width: 65%;
+    }
+
+    .small-cardbox{
+        width: 30%;
+    }
+
+    .responsive-partner-container{
+        display: flex;
+
+    }
+
+    .partner-img{
+        width: 30%;
+    }
+
+    .partner-text{
+        width: 70%;
+    }
+    
+    .responsive-benefits-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* .benefits-card{
+        width: 45%;
+    } */
+
+    .responsive-aboutus-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .responsive-aboutus-section{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .benefits-card{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:375px) {
+
+
+}
+
